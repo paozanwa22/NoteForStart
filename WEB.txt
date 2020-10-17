@@ -1,0 +1,38 @@
+
+SEBELUM MEMBUAT WEB	(from web programming UNPAS)
+
+
+//menyaring file tertentu
+gitignore.io 		//Simpan file dengna nama	 .gitignore
+
+//supaya mempunyai kendali penuh	CSS Layouting - #.. Reset
+css reset	https://meyerweb.com/eric/tools/css/reset/
+
+//clear float		CSS Layouting - #9 Clear
+	//menggunakan property overflow
+	overflow: auto;		//meninggikan pembungkus-ya sehingga aitem di anggap lagi	(ngakalin/kurang tepat)
+	
+	//menggunakan <div> kosong
+	.clear {
+		clear: both;
+	}
+	
+	//menggunakan teknik micro clearfix
+	micro clearfix	-> cari di google
+	
+	
+
+// Structure HTML
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <div id="container">
+            <article></article>
+            <article></article>
+        </div>
+        <aside></aside>
+    </main>
+
+    <footer></footer>
